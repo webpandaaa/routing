@@ -16,12 +16,12 @@ const Nav = () => {
         <NavLink
           className={(e) => (e.isActive ? "text-red-300" : "")}
           to ="/contact"
-          >Contact
+          >Posts
         </NavLink>
         <NavLink
           className={(e) => (e.isActive ? "text-red-300" : "")}
           to ="/about"
-          >About
+          >List
         </NavLink>
         <NavLink
           className={(e) => (e.isActive ? "text-red-300" : "")}
